@@ -2,19 +2,20 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $sfdc-color-blue;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    transition: all .2s linear;
+    background-color: #f3f3f3;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+    display: block;
+    padding: 20px 20px 20px 0;
+    font: 200 20px/1 Helvetica, Arial;
     float: left;
 
     &,
@@ -25,19 +26,31 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
 
     .menu-icon {
         display: none;
     }
 
+    li {
+        list-style-type: none;
+    }
+
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        display: inline-block;
+        padding: 16px 15px 16px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+
+        &:hover {
+            color: $sfdc-color-blue;
+            text-decoration: none;
+            position: relative;
+            top: -1px;
         }
     }
 

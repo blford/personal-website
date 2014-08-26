@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coolest Site Like Ever</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Salesforce or Bust</title>
+    <description>I write code and use words I&#39;ve just learned. You correct my mistakes with your vast knowledge of Salesforce and web development. win win!&lt;br /&gt; Salesforce : Executives :: Earnhardt Jr : Nascar
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 Aug 2014 23:08:56 +0100</pubDate>
-    <lastBuildDate>Mon, 25 Aug 2014 23:08:56 +0100</lastBuildDate>
+    <pubDate>Tue, 26 Aug 2014 03:26:44 +0100</pubDate>
+    <lastBuildDate>Tue, 26 Aug 2014 03:26:44 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
