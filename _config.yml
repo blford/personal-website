@@ -6,8 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
    I write code and use words I've just learned. You correct my mistakes with
    your vast knowledge of Salesforce and web development. win win!<br />
    Salesforce : Executives :: Earnhardt Jr : Nascar
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl: "/personal-website" # the subpath of your site, e.g. /blog/
+url: "http://blford.github.io"
+#url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: Brian_FordL
 github_username:  blford
 
