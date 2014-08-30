@@ -4,10 +4,10 @@
     <title>Salesforce or Bust</title>
     <description>I write code and use words I&#39;ve just learned. You correct my mistakes with your vast knowledge of Salesforce and web development. win win!&lt;br /&gt; Salesforce : Executives :: Earnhardt Jr : Nascar
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Aug 2014 23:51:07 +0100</pubDate>
-    <lastBuildDate>Sat, 30 Aug 2014 23:51:07 +0100</lastBuildDate>
+    <link>http://blford.github.io/personal-website/</link>
+    <atom:link href="http://blford.github.io/personal-website/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 31 Aug 2014 00:16:33 +0100</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2014 00:16:33 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -67,8 +67,8 @@
     &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Influenced_Opportunity__r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Partner_Spiff_Qualified__c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 19 Aug 2014 19:24:00 +0100</pubDate>
-        <link>http://localhost:4000/2014/08/19/go-for-first-trigger.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/08/19/go-for-first-trigger.html</guid>
+        <link>http://blford.github.io/personal-website/2014/08/19/go-for-first-trigger.html</link>
+        <guid isPermaLink="true">http://blford.github.io/personal-website/2014/08/19/go-for-first-trigger.html</guid>
         
         <category>salesforce,</category>
         
