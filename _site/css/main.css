@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #111;
+  color: #333;
   background-color: #fdfdfd; }
 
 /**
@@ -66,7 +66,7 @@ a {
   color: #2a7ae2;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #0ba0db; }
   a:hover {
     color: #424242;
     text-decoration: underline; }
@@ -145,39 +145,47 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #0ba0db;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  margin-top: 20px;
+  min-height: 70px;
+  background: url("../img/navHeader.png") repeat no-repeat;
   transition: all .2s linear;
-  background-color: #f3f3f3;
   position: relative; }
 
 .site-title {
   display: block;
-  padding: 20px 20px 20px 0;
-  font: 200 20px/1 Helvetica, Arial;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
+  padding: 23px 20px 0 0;
+  font: 200 24px/1 Helvetica, Arial;
+  float: left;
+  color: #f3f3f3; }
+  .site-title:hover {
+    text-decoration: none; }
+  .site-title:visited {
+    color: #f3f3f3; }
 
 .site-nav {
-  float: right; }
+  float: right;
+  font-size: 18px;
+  padding-top: 12px;
+  text-transform: lowercase; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav li {
-    list-style-type: none; }
+    list-style-type: none;
+    float: left; }
   .site-nav .page-link {
-    color: #111;
+    color: #f3f3f3;
     line-height: 1.5;
     display: inline-block;
-    padding: 16px 15px 16px; }
+    padding: 8px 15px 8px; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
     .site-nav .page-link:hover {
-      color: #0ba0db;
       text-decoration: none;
-      position: relative;
-      top: -1px; }
+      background: #097daa;
+      border-radius: 5px;
+      position: relative; }
+    .site-nav .page-link:visited {
+      color: white; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -193,7 +201,7 @@ pre {
         width: 36px;
         height: 26px;
         line-height: 0;
-        padding-top: 10px;
+        padding-top: 5px;
         text-align: center; }
         .site-nav .menu-icon > svg {
           width: 18px;

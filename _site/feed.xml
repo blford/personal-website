@@ -6,12 +6,12 @@
 </description>
     <link>http://blford.github.io/personal-website/</link>
     <atom:link href="http://blford.github.io/personal-website/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Aug 2014 00:16:33 +0100</pubDate>
-    <lastBuildDate>Sun, 31 Aug 2014 00:16:33 +0100</lastBuildDate>
+    <pubDate>Mon, 01 Sep 2014 00:33:49 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Sep 2014 00:33:49 +0100</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>Go For First Trigger</title>
+        <title>go for first trigger</title>
         <description>&lt;p&gt;My first trigger’s in production! I’ve deployed a handful of triggers and test classes over the last few weeks, but they all started with a little copy &amp;amp; paste. Admittedly, this is a basic trigger, but you’ve got to start somewhere.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
@@ -67,8 +67,8 @@
     &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Influenced_Opportunity__r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Partner_Spiff_Qualified__c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 19 Aug 2014 19:24:00 +0100</pubDate>
-        <link>http://blford.github.io/personal-website/2014/08/19/go-for-first-trigger.html</link>
-        <guid isPermaLink="true">http://blford.github.io/personal-website/2014/08/19/go-for-first-trigger.html</guid>
+        <link>http://blford.github.io/personal-website/go-for-first-trigger/</link>
+        <guid isPermaLink="true">http://blford.github.io/personal-website/go-for-first-trigger/</guid>
         
         <category>salesforce,</category>
         

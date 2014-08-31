@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Go For First Trigger"
+title:  "go for first trigger"
 date:   2014-08-19 18:24:00
+permalink: /go-for-first-trigger/
 tags: salesforce, trigger
 ---
 My first trigger's in production! I've deployed a handful of triggers and test classes over the last few weeks, but they all started with a little copy & paste. Admittedly, this is a basic trigger, but you've got to start somewhere.

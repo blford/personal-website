@@ -2,11 +2,13 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $sfdc-color-blue;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    margin-top: 20px;
+    min-height: 70px;
+    background: url("../img/navHeader.png") repeat no-repeat;
     transition: all .2s linear;
-    background-color: #f3f3f3;
+    //border-top: 5px solid $sfdc-color-blue;
+    //background-color: #f3f3f3;
+    //border-bottom: 1px solid $grey-color-light;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -14,18 +16,25 @@
 
 .site-title {
     display: block;
-    padding: 20px 20px 20px 0;
-    font: 200 20px/1 Helvetica, Arial;
+    padding: 23px 20px 0 0;
+    font: 200 24px/1 Helvetica, Arial;
     float: left;
+    color: $site-white;
 
-    &,
+    &:hover {
+        text-decoration: none;
+    }
+
     &:visited {
-        color: $grey-color-dark;
+        color: $site-white;
     }
 }
 
 .site-nav {
     float: right;
+    font-size: 18px;
+    padding-top: 12px;
+    text-transform: lowercase;
 
     .menu-icon {
         display: none;
@@ -33,13 +42,14 @@
 
     li {
         list-style-type: none;
+        float: left;
     }
 
     .page-link {
-        color: $text-color;
+        color: $site-white;
         line-height: $base-line-height;
         display: inline-block;
-        padding: 16px 15px 16px;
+        padding: 8px 15px 8px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -47,10 +57,14 @@
         }
 
         &:hover {
-            color: $sfdc-color-blue;
             text-decoration: none;
+            background: darken($sfdc-color-blue, 10%);
+            border-radius: 5px;
             position: relative;
-            top: -1px;
+        }
+
+        &:visited {
+            color: white;
         }
     }
 
@@ -69,7 +83,7 @@
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 10px;
+            padding-top: 5px;
             text-align: center;
 
             > svg {
